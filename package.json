@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "https": "^1.0.0",
+    "mongoose": "github:Automattic/mongoose",
+    "morgan": "^1.9.1",
+    "openai": "^3.2.1",
+    "soft-delete-plugin-mongoose": "^1.0.15"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.21.3",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "babel-node --trace-deprecation .",
+    "development": "nodemon --exec babel-node --trace-deprecation .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
